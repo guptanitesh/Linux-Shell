@@ -1,7 +1,7 @@
 # Interactive Shell
 * An interactive user defined shell in C
 
-##Runnig the Shell 
+## Runnig the Shell 
 * At first complile the codes using the following command :
 
   ```make```
@@ -11,7 +11,7 @@
 
   ```./cshell```
 
-##Features
+## Features
 ### General
 * Works almost like a normal shell.
 * Coloured prompt 

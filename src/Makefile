@@ -1,0 +1,2 @@
+cshell: main.c redirect.c pipe.c setenv_unsetenv.c jobs.c kjob.c overkill.c fg_bg.c input.c parse.c process.c pwd.c echo.c cd.c ls.c pinfo.c
+	gcc -o cshell main.c pipe.c setenv_unsetenv.c jobs.c kjob.c overkill.c fg_bg.c input.c parse.c process.c pwd.c echo.c cd.c ls.c pinfo.c redirect.c -I.

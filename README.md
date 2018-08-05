@@ -49,6 +49,7 @@ Following commands are implemented as a part of the shell :
   * If environment variable var does not exist, then the shell create it.
   * Shell sets the value of var to value, or to the empty string if value is omitted.
   * It can also change the value of an existing variable.
+  * Value of the variable modified can be checked using ```printenv var```.
 * unsetenv:  ```unsetenv var```
   * Shell destroys the environment variable var.
 * jobs
@@ -57,8 +58,6 @@ Following commands are implemented as a part of the shell :
   * Takes the job id of a running job and sends a signal value to that process.
 * fg:  ```fg <jobNumber>```
   * Brings a running or a stopped background job with given job number to foreground.
-* bg:  ```bg <jobNumber>```
-  * Changes a stopped background job to a running background job.
 * overkill
   * Kills all background process at once.
 * quit
